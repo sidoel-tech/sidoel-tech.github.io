@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tugas 13</title>
+    <link rel="shortcut icon" href="/images/logo.png">
+    <link rel="stylesheet" href="css/w3.css">
+</head>
+
+<body>
+    <img src="/images/banner.png" width="100%" height="100%">
+    <div class="w3-bar w3-brown" width="100%" height="100%">
+        <button class="w3-bar-item w3-button" onclick="openKendaraan('Home')">Home</button>
+        <button class="w3-bar-item w3-button" onclick="openKendaraan('Maung')">Maung</button>
+        <button class="w3-bar-item w3-button" onclick="openKendaraan('Komodo')">Komodo</button>
+        <button class="w3-bar-item w3-button" onclick="openKendaraan('Anoa')">Anoa</button>
+        <button class="w3-bar-item w3-button" onclick="openKendaraan('Harimau')">Harimau</button>
+        <button class="w3-bar-item w3-button" onclick="openKendaraan('Badak')">Badak</button>
+        <button class="w3-bar-item w3-button" onclick="openKendaraan('Profile')">Profile</button>
+    </div>
+    <div id="Home" class="w3-container kendaraan" style="display: contents;">
+        <center>
+            <h2>Kendaraan Khusus</h2>
+            <img src="/images/logo.png" class="w3-animate-bottom" width="50%" height="50%">
+        </center>
+        <p>
+            PT Pindad (Persero) mulai masuk pada pengembangan teknologi kendaraan bermotor pada tahun 1993 melalui
+            program Mobil Nasional. Pindad telah bekerja sama dengan berbagai pihak baik dalam maupun luar negeri
+            dalam
+            upaya untuk mengembangkan teknologi fungsi kendaraan khususnya kendaraan tempur untuk memenuhi kebutuhan
+            pertahanan dan keamanan nasional.
+
+            Produk-produk kendaraan tempur yang dihasilkan, diantaranya : Kendaraan Taktis 4x4 “KOMODO” dan Panser
+            6x6
+            “ANOA” yang telah diproduksi lebih dari 300 unit dengan berbagai varian serta ikut dalam misi perdamaian
+            dunia PBB di berbagai Negara seperti Lebanon, Afrika Tengah, dan Sudan.
+
+            Penelitian dan pengembangan terus menerus dilakukan untuk mencapai tujuan masa depan untuk meningkatkan
+            kapasitas bisnis dan teknologi. Produk penelitian dan pengembangan terbaru yang dilakukan oleh Pindad
+            adalah
+            produk Medium Tank “HARIMAU” yang bekerjasama dengan FNSS (Turki) serta didukung oleh Kementerian
+            Pertahanan
+            RI. Sistem ini dilengkapi senjata Turret 105 mm serta mampu melewati berbagai medan pertempuran.
+        </p>
+    </div>
+    <div id="Profile" class="w3-container kendaraan" style="display:none">
+        <center>
+            <h2>Profile</h2>
+            <b>
+                <table>
+                    <tr>
+                        <td>
+                            NIM
+                        </td>
+                        <td>
+                            : 10121122
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Nama
+                        </td>
+                        <td>
+                            : Muhammad Abdul Rohman Sidik
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Kelas
+                        </td>
+                        <td>
+                            : Teknik Informatika 3
+                        </td>
+                    </tr>
+                </table>
+            </b>
+            <img src="/images/ganteng.jpg" class="w3-animate-zoom" width="50%" height="50%">
+        </center>
+    </div>
+    <div id="Maung" class="w3-container kendaraan" style="display:none">
+        <center>
+            <h2>Kendaraan Taktis Maung 4x4</h2>
+            <img src="/images/maung.jpg" class="w3-animate-bottom" width="50%" height="50%">
+        </center>
+        <p>
+            Kendaraan Taktis Ringan 4x4 produksi PT Pindad (Persero) yang ditujukan untuk mendukung operasi dan
+            mobilisasi pertempuran jarak dekat serta jelajah segala medan.
+            Dengan kecepatan aman 120 km/jam, transmisi manual 6 speed dan mampu menjangkau jarak tempuh hingga 800
+            km,
+            menjadikan Maung memiliki manuver yang gesit dan handal. Maung dapat dilengkapi dengan braket senjata
+            7,62
+            mm, konsol senjata SS2-V4, GPS navigasi, tracker dan perlengkapan lainnya.</p>
+    </div>
+
+    <div id="Komodo" class="w3-container kendaraan" style="display:none">
+        <center>
+            <h2>Komodo 4x4 Missile Launcher</h2>
+            <img src="/images/komodo.jpg" class="w3-animate-fading" width="50%" height="50%">
+        </center>
+        <p>
+            Varian Komodo dengan kemampuan untuk meluncurkan rudal Mistral yang terpasang pada bagian belakang
+            kendaraan. Varian ini memiliki kapasitas personel 4 orang. Berbeda dengan varian recon, varian ini
+            menggunakan transmisi manual untuk perpindahan percepatan pada mesinnya. Selain itu, Komodo Missile
+            Launcher
+            dilengkapi dengan intercom set sebagai alat komunikasi personel yang berada didalamnya. Varian ini
+            digunakan
+            oleh TNI-AD untuk keperluan pertahanan udara.
+        </p>
+    </div>
+
+    <div id="Anoa" class="w3-container kendaraan" style="display:none">
+        <center>
+            <h2>Anoa 6x6 Command</h2>
+            <img src="/images/anoa.jpg" class="w3-animate-top" width="50%" height="50%">
+        </center>
+        <p>
+            Varian Anoa 6x6 yang didesain untuk menjadi kendaraan bagi komandan dalam memimpin serta mengarahkan
+            pasukan
+            dalam pertempuran. Memiliki kapasitas 7 orang personel termasuk pengemudi, Anoa tipe Command Memiliki
+            top
+            speed 80 km/h pada jalan raya dengan daya jelajah 600 kilometer dengan daya maksimal 320 Horsepower.</p>
+    </div>
+
+    <div id="Harimau" class="w3-container kendaraan" style="display:none">
+        <center>
+            <h2>Harimau Medium Tank</h2>
+            <img src="/images/harimau.jpg" class="w3-animate-zoom" width="50%" height="50%">
+        </center>
+        <p>
+            Harimau Medium Tank Kanon 105 mm adalah kendaraan tempur produk terbaru dari PT Pindad (Persero) yang
+            didukung oleh Kementerian Pertahanan RI sesuai kebutuhan Tentara Nasional Indonesia (TNI). Kendaraan ini
+            dilengkapi dengan two-man turret kaliber 105 mm serta senapan mesin kaliber 7,62 mm untuk daya gempur
+            maksimum. Harimau Medium Tank didesain khusus untuk daerah operasi tropis seperti hutan karena memiliki
+            bobot yang lebih ringan dari Main Battle Tank.</p>
+    </div>
+    <div id="Badak" class="w3-container kendaraan" style="display: none;">
+        <center>
+            <img src="/images/badak.jpg" class="w3-animate-right" width="50%" height="50%"">
+            <h2>Badak 6x6</h2>
+        </center>
+        <p>
+            Panser 6x6 Kanon 90 mm “BADAK” adalah varian baru dari keluarga Ranpur 6x6 PT Pindad (Persero) yang dibuat
+            berdasarkan kebutuhan TNI khususnya satuan kavaleri. Kendaraan ini dilengkapi dengan two-man turret kaliber
+            90 mm serta senapan mesin kaliber 7,62 mm untuk daya gempur maksimal dan dioperasikan oleh 3 orang personel.
+            Mesin diesel 340 HP yang dilengkapi dengan Turbo Charger Intercooler mampu membawa kendaraan ini pada top
+            speed 80 km/h dengan daya jelajah sejauh 600 kilometer.
+        </p>
+    </div>
+    <script>
+        function openKendaraan(namaKendaraan) {
+            var i;
+            var x = document.getElementsByClassName(" kendaraan"); for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            } document.getElementById(namaKendaraan).style.display = "block";
+        } </script>
+</body>
+
+</html>
